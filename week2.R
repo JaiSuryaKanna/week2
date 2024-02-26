@@ -1,9 +1,9 @@
 ## working on excel sheet
 
-> library(readxl)
-> HR_Employee_Data <- read_excel("C:/Users/hkp/Downloads/HR_Employee_Data.xlsx")
-> View(HR_Employee_Data)
-> head(HR_Employee_Data)
+ library(readxl)
+ HR_Employee_Data <- read_excel("C:/Users/hkp/Downloads/HR_Employee_Data.xlsx")
+ View(HR_Employee_Data)
+ head(HR_Employee_Data)
 # A tibble: 6 × 11
 Emp_Id   satisfaction_level last_evaluation number_project average_montly_hours
 <chr>                 <dbl>           <dbl>          <dbl>                <dbl>
@@ -16,7 +16,7 @@ Emp_Id   satisfaction_level last_evaluation number_project average_montly_hours
 # ℹ 6 more variables: time_spend_company <dbl>, Work_accident <dbl>, left <dbl>,
 #   promotion_last_5years <dbl>, Department <chr>, salary <chr>
 
-> tail(HR_Employee_Data)
+tail(HR_Employee_Data)
 # A tibble: 6 × 11
 Emp_Id   satisfaction_level last_evaluation number_project average_montly_hours
 <chr>                 <dbl>           <dbl>          <dbl>                <dbl>
